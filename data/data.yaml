@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['empty-chair', 'occupied-chair']
+
+roboflow:
+  workspace: project-tfesu
+  project: empty-seat-detection-vhhxe-wz7oj
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/project-tfesu/empty-seat-detection-vhhxe-wz7oj/1
